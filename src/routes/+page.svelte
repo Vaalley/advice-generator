@@ -120,7 +120,7 @@
 		<img src="images/pattern-divider-desktop.svg" class="mt-10 mb-4 -md:hidden" alt="Divider desktop" />
 		<img src="images/pattern-divider-mobile.svg" class="mt-10 mb-4 hidden -md:block" alt="Divider desktop" />
 
-		<button on:click={getAdvice} class="p-5 bg-neon-green rounded-full w-fit "
+		<button on:click={getAdvice} class="p-5 bg-neon-green rounded-full w-fit"
 			><img src="/images/icon-dice.svg" alt="Dice icon for randon advice" /></button
 		>
 	</div>
@@ -129,5 +129,11 @@
 <style>
 	button {
 		transform: translate(0%, 50%);
+		transition: all 0.1s ease-in-out;
+	}
+
+	button:hover {
+		-webkit-box-shadow: 0px 0px 50px 14px hsla(150, 100%, 66%, 0.3); 
+		box-shadow: 0px 0px 50px 14px hsl(150, 100%, 66%, 0.3);
 	}
 </style>
