@@ -5,9 +5,9 @@ const config = {
 	server: {
 		fs: {
 			// Add specific folders that are outside of the serving list
-			allow: ['..'],
-		},
-	},
+			allow: ['..']
+		}
+	}
 };
 
 export default config;
