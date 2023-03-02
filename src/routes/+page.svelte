@@ -4,20 +4,84 @@
 	let advices = [
 		{
 			id: 1,
-			advice: 'A long walk alone with some time to think, can work wonders.'
+			advice: `A long walk alone with some time to think, can work wonders.`
 		},
 		{
 			id: 2,
-			advice: 'Test2'
+			advice: `When faced with a choice, do both.`
 		},
 		{
 			id: 3,
-			advice: 'Test3'
+			advice: `If you're squashed close to strangers on public transport, try not to be rude to them. No one likes those situations.`
 		},
 		{
 			id: 4,
-			advice: 'Test4'
-		}
+			advice: `Give up your seat for someone who needs it.`
+		},
+		{
+			id: 5,
+			advice: `To cleanly remove the seed from an Avocado, lay a knife firmly across it, and twist.`
+		},
+		{
+			id: 6,
+			advice: `Put a piece of kitchen roll in with your bag of leaves to make them last longer.`
+		},
+		{
+			id: 7,
+			advice: `Plant a tree.`
+		},
+		{
+			id: 8,
+			advice: `Measure twice, cut once.`
+		},
+		{
+			id: 9,
+			advice: `Repeat people's names when you meet them.`
+		},
+		{
+			id: 10,
+			advice: `True happiness always resides in the quest.`
+		},
+		{
+			id: 11,
+			advice: `Sometimes it's best to ignore other people's advice.`
+		},
+		{
+			id: 12,
+			advice: `A nod is as good as a wink to a blind horse.`
+		},
+		{
+			id: 13,
+			advice: `Do something selfless.`
+		},
+		{
+			id: 14,
+			advice: `What's stopping you?`
+		},
+		{
+			id: 15,
+			advice: `Value the people in your life.`
+		},
+		{
+			id: 16,
+			advice: `Good advice is something a man gives when he is too old to set a bad example.`
+		},
+		{
+			id: 17,
+			advice: `Don't cross the streams.`
+		},
+		{
+			id: 18,
+			advice: `Hold the door open for the next person.`
+		},
+		{
+			id: 19,
+			advice: `If you find yourself distressed about something, ask yourself if it will still matter tomorrow or next week or next month.`
+		},
+		{
+			id: 20,
+			advice: `If you get stuck, try doing the opposite of what the solution requires.`
+		},
 	];
 
 	function getAdvice() {
