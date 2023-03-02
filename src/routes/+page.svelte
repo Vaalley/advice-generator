@@ -47,13 +47,14 @@
 
 <main class="w-screen h-screen flex justify-center items-center bg-dark-blue font-roboto">
 	<div
-		class="w-[600px] h-fit flex flex-col justify-end items-center bg-dark-grayish-blue shadow-2xl rounded-2xl px-4"
+		class="w-[600px] h-fit flex flex-col justify-end items-center bg-dark-grayish-blue shadow-2xl rounded-2xl px-4 -md:mx-4"
 	>
 		<p class="advice-id text-neon-green text-sm tracking-widest font-bold text-center p-10" />
 
-		<p class="advice-advice text-light-cyan text-3xl font-semibold text-center mb-auto" />
+		<p class="advice-advice text-light-cyan text-3xl -md:text-2xl font-semibold text-center mb-auto" />
 
-		<img src="images/pattern-divider-desktop.svg" class="mt-10 mb-4" alt="Divider desktop" />
+		<img src="images/pattern-divider-desktop.svg" class="mt-10 mb-4 -md:hidden" alt="Divider desktop" />
+		<img src="images/pattern-divider-mobile.svg" class="mt-10 mb-4 hidden -md:block" alt="Divider desktop" />
 
 		<button on:click={getAdvice} class="p-5 bg-neon-green rounded-full w-fit "
 			><img src="/images/icon-dice.svg" alt="Dice icon for randon advice" /></button
